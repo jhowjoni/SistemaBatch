@@ -1,4 +1,4 @@
-package br.com.projeto.jonathan.controler;
+package br.com.projeto.jonathan.controller;
 
 import java.sql.SQLException;
 
