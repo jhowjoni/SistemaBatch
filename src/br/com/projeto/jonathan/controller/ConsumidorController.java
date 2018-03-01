@@ -11,7 +11,10 @@ public class ConsumidorController {
 	public static void main(String[] argv) {
 
 		try {
+			
+			//consumidorDAO.truncate();
 			consumidorDAO.inserir();
+			
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}

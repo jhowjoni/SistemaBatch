@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class ConnectFactory {
 
 	private final String DRIVER = "com.mysql.jdbc.Driver";
-	private final String BANCO = "jdbc:mysql://127.0.0.1:3306/projeto_back";
+	private final String BANCO = "jdbc:mysql://127.0.0.1:3306/projeto_back?autoReconnect=true&useSSL=false";
 	private final String USUARIO = "root";
 	private final String SENHA = "desenv";
 
